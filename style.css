@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo{
+    margin: 50px 0 0 50px;
+}
+
+#titulo-menusuperior{
+    margin: 50px 0 0 150px;
+
+}
+
+#texto-menusuperior{
+    margin: 35px 0 0 150px;
+    padding: 0 0 100px 0;
+}
+
+#menusuperior {
+    background-image: url("./image/background-menusuperior.svg");
+    color: white;
+    
+}
+#menuinformacional {
+    background-color: #EAECE5;
+    /*grid: colocar em colunas
+        grid-auto-flow: define como os 
+        elementos são organizados em um grid.*/
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+.icone{
+   margin: 50px 0px 50px 100px;   
+   padding: 25px;
+}
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin: 50px 0 0 0;
+
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+    
+   
+}
+
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.cards{
+   margin:0 0 0 50px;
+}
+
+#esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+.seta{
+    margin-top: 18%;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+    margin: 25px;
+}
+#titulo-formulario{
+    font-size: 25px;
+    color: #383838;
+}
+
+input{
+    width: 413px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+}
